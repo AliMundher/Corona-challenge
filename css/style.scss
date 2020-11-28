@@ -1,0 +1,61 @@
+.color_links_active {
+  color: #f8315a;
+}
+.color_links {
+  color: #fff;
+}
+.font_covid {
+  font-size: 2.8em;
+  font-weight: bold;
+  //   width: 500px;
+}
+.btn-custum {
+  background-color: #f8315a;
+  width: 150px;
+  border-radius: 100px;
+  border: none;
+}
+.btn-custum--start {
+  width: 190px;
+  padding: 10px 5px;
+}
+.nav-link.btn-custum:hover {
+  background-color: #f8315a;
+  color: #fff;
+}
+
+header {
+  position: relative;
+  background-image: url('../images/header-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  .logo_custum {
+    width: 120px;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    @extend .color_links_active;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    @extend .color_links;
+    &:hover {
+      @extend .color_links_active;
+    }
+  }
+  .mt-custum {
+    margin-top: 15%;
+    .text {
+      @extend .color_links;
+      &_covid {
+        @extend .font_covid;
+      }
+      &_basic {
+        letter-spacing: 0.3em;
+      }
+      &_emergency {
+        font-size: 0.9em;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

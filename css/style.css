@@ -1,0 +1,55 @@
+.color_links_active, header .navbar-light .navbar-nav .nav-link.active, header .navbar-light .navbar-nav .nav-link:hover {
+  color: #f8315a;
+}
+
+.color_links, header .navbar-light .navbar-nav .nav-link, header .mt-custum .text {
+  color: #fff;
+}
+
+.font_covid, header .mt-custum .text_covid {
+  font-size: 2.8em;
+  font-weight: bold;
+}
+
+.btn-custum {
+  background-color: #f8315a;
+  width: 150px;
+  border-radius: 100px;
+  border: none;
+}
+
+.btn-custum--start {
+  width: 190px;
+  padding: 10px 5px;
+}
+
+.nav-link.btn-custum:hover {
+  background-color: #f8315a;
+  color: #fff;
+}
+
+header {
+  position: relative;
+  background-image: url("../images/header-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+
+header .logo_custum {
+  width: 120px;
+}
+
+header .mt-custum {
+  margin-top: 15%;
+}
+
+header .mt-custum .text_basic {
+  letter-spacing: 0.3em;
+}
+
+header .mt-custum .text_emergency {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=style.css.map */
