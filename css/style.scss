@@ -1,3 +1,77 @@
+body {
+  height: 3000px;
+}
+header {
+  position: relative;
+  background-image: url('../images/header-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  .logo_custum {
+    width: 120px;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    @extend .color_links_active;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    @extend .color_links;
+    &:hover {
+      @extend .color_links_active;
+    }
+  }
+  .mt-custum {
+    margin-top: 17%;
+    .text {
+      @extend .color_links;
+      &_covid {
+        @extend .font_covid;
+      }
+      &_basic {
+        letter-spacing: 0.3em;
+      }
+      &_emergency {
+        font-size: 0.9em;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+// Start Statistics
+.Statics {
+  box-shadow: 0 0 10px #ccc;
+  background-image: url('../images/statistics-bg.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 150px;
+}
+// End Statistics
+// Start Covid-19
+
+.covid {
+  margin-top: 7%;
+  &_img {
+    max-width: 90%;
+    margin-right: 15px;
+    margin: auto;
+    img {
+      width: 100%;
+    }
+  }
+  &_text {
+    border: 2px solid red;
+  }
+}
+// End Covid-19
+
+// Bootstrap Style
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+  font-size: 0.9em;
+}
+// End Bootstrap Style
+
+// My Custum Classes
 .color_links_active {
   color: #f8315a;
 }
@@ -22,40 +96,4 @@
 .nav-link.btn-custum:hover {
   background-color: #f8315a;
   color: #fff;
-}
-
-header {
-  position: relative;
-  background-image: url('../images/header-banner.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 600px;
-  .logo_custum {
-    width: 120px;
-  }
-  .navbar-light .navbar-nav .nav-link.active {
-    @extend .color_links_active;
-  }
-  .navbar-light .navbar-nav .nav-link {
-    @extend .color_links;
-    &:hover {
-      @extend .color_links_active;
-    }
-  }
-  .mt-custum {
-    margin-top: 15%;
-    .text {
-      @extend .color_links;
-      &_covid {
-        @extend .font_covid;
-      }
-      &_basic {
-        letter-spacing: 0.3em;
-      }
-      &_emergency {
-        font-size: 0.9em;
-        letter-spacing: 1px;
-      }
-    }
-  }
 }

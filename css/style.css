@@ -1,3 +1,65 @@
+body {
+  height: 3000px;
+}
+
+header {
+  position: relative;
+  background-image: url("../images/header-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+
+header .logo_custum {
+  width: 120px;
+}
+
+header .mt-custum {
+  margin-top: 17%;
+}
+
+header .mt-custum .text_basic {
+  letter-spacing: 0.3em;
+}
+
+header .mt-custum .text_emergency {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.Statics {
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+  background-image: url("../images/statistics-bg.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 150px;
+}
+
+.covid {
+  margin-top: 7%;
+}
+
+.covid_img {
+  max-width: 90%;
+  margin-right: 15px;
+  margin: auto;
+}
+
+.covid_img img {
+  width: 100%;
+}
+
+.covid_text {
+  border: 2px solid red;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+  font-size: 0.9em;
+}
+
 .color_links_active, header .navbar-light .navbar-nav .nav-link.active, header .navbar-light .navbar-nav .nav-link:hover {
   color: #f8315a;
 }
@@ -26,30 +88,5 @@
 .nav-link.btn-custum:hover {
   background-color: #f8315a;
   color: #fff;
-}
-
-header {
-  position: relative;
-  background-image: url("../images/header-banner.jpg");
-  background-size: cover;
-  background-position: center;
-  min-height: 600px;
-}
-
-header .logo_custum {
-  width: 120px;
-}
-
-header .mt-custum {
-  margin-top: 15%;
-}
-
-header .mt-custum .text_basic {
-  letter-spacing: 0.3em;
-}
-
-header .mt-custum .text_emergency {
-  font-size: 0.9em;
-  letter-spacing: 1px;
 }
 /*# sourceMappingURL=style.css.map */
