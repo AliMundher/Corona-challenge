@@ -27,6 +27,10 @@ header .mt-custum .text_emergency {
   letter-spacing: 1px;
 }
 
+header .mt-custum .people_img {
+  width: 100%;
+}
+
 .Statics {
   -webkit-box-shadow: 0 0 10px #ccc;
           box-shadow: 0 0 10px #ccc;
@@ -34,6 +38,88 @@ header .mt-custum .text_emergency {
   background-size: cover;
   background-position: center;
   min-height: 150px;
+}
+
+.Statics__icon {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-image: url("../images/sprite-home.png");
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Statics #one {
+  background-position: 0 0;
+}
+
+.Statics #one:hover {
+  background-position: 0 -75px;
+}
+
+.Statics #two {
+  background-position: -140px 0;
+}
+
+.Statics #two:hover {
+  background-position: -140px -75px;
+}
+
+.Statics #three {
+  background-position: -210px 0;
+}
+
+.Statics #three:hover {
+  background-position: -210px -75px;
+}
+
+.Statics #four {
+  background-position: -360px 0;
+}
+
+.Statics #four:hover {
+  background-position: -360px -75px;
+}
+
+.Statics__num {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.Statics__cases--title {
+  color: #fd435d;
+  font-size: 1.1em;
+}
+
+.Statics__num--color1 {
+  color: #fd435d;
+}
+
+.Statics__deaths--title {
+  color: #7218b3;
+  font-size: 1.1em;
+}
+
+.Statics__num--color2 {
+  color: #7218b3;
+}
+
+.Statics__recovered--title {
+  color: #da6603;
+  font-size: 1.1em;
+}
+
+.Statics__num--color3 {
+  color: #da6603;
+}
+
+.Statics__counteries--title {
+  color: #a60548;
+  font-size: 1.1em;
+}
+
+.Statics__num--color4 {
+  color: #a60548;
 }
 
 .covid {
@@ -52,6 +138,26 @@ header .mt-custum .text_emergency {
 
 .covid_text {
   border: 2px solid red;
+}
+
+.syptom {
+  background-image: url("../images/symptoms-bg.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+
+.syptom__subtitle {
+  font-size: 0.9em;
+}
+
+.syptom__image {
+  margin: auto;
+  max-width: 50%;
+}
+
+.syptom__image img {
+  width: 100%;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {

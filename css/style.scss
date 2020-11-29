@@ -7,6 +7,7 @@ header {
   background-size: cover;
   background-position: center;
   min-height: 600px;
+
   .logo_custum {
     width: 120px;
   }
@@ -34,6 +35,9 @@ header {
         letter-spacing: 1px;
       }
     }
+    .people_img {
+      width: 100%;
+    }
   }
 }
 // Start Statistics
@@ -43,6 +47,70 @@ header {
   background-size: cover;
   background-position: center;
   min-height: 150px;
+  &__icon {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-image: url('../images/sprite-home.png');
+    transition: all 0.3s ease-in-out;
+  }
+  #one {
+    background-position: 0 0;
+    &:hover {
+      background-position: 0 -75px;
+    }
+  }
+  #two {
+    background-position: -140px 0;
+    &:hover {
+      background-position: -140px -75px;
+    }
+  }
+
+  #three {
+    background-position: -210px 0;
+    &:hover {
+      background-position: -210px -75px;
+    }
+  }
+  #four {
+    background-position: -360px 0;
+    &:hover {
+      background-position: -360px -75px;
+    }
+  }
+  &__num {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  &__cases--title {
+    color: #fd435d;
+    font-size: 1.1em;
+  }
+  &__num--color1 {
+    color: #fd435d;
+  }
+  &__deaths--title {
+    color: #7218b3;
+    font-size: 1.1em;
+  }
+  &__num--color2 {
+    color: #7218b3;
+  }
+  &__recovered--title {
+    color: #da6603;
+    font-size: 1.1em;
+  }
+  &__num--color3 {
+    color: #da6603;
+  }
+  &__counteries--title {
+    color: #a60548;
+    font-size: 1.1em;
+  }
+  &__num--color4 {
+    color: #a60548;
+  }
 }
 // End Statistics
 // Start Covid-19
@@ -62,6 +130,25 @@ header {
   }
 }
 // End Covid-19
+
+// Start Symptoms
+.syptom {
+  background-image: url('../images/symptoms-bg.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  &__subtitle {
+    font-size: 0.9em;
+  }
+  &__image {
+    margin: auto;
+    max-width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+}
+// End Symptoms
 
 // Bootstrap Style
 .navbar-expand-lg .navbar-nav .nav-link {
