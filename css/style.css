@@ -151,13 +151,76 @@ header .mt-custum .people_img {
   font-size: 0.9em;
 }
 
-.syptom__image {
-  margin: auto;
-  max-width: 50%;
+.syptom__icon {
+  width: 105px;
+  height: 105px;
+  display: inline-block;
+  background-image: url("../images/sprite-home-v3.png");
+  border: 1px dashed black;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
 }
 
-.syptom__image img {
-  width: 100%;
+.syptom #one {
+  background-position: 4px -164px;
+}
+
+.syptom #one:hover {
+  background-position: 4px -352px;
+  background-color: #fd435d;
+  border: 1px dashed #fd435d;
+}
+
+.syptom #two {
+  background-position: -114px -160px;
+}
+
+.syptom #two:hover {
+  background-position: -114px -350px;
+  background-color: #fd435d;
+  border: 1px dashed #fd435d;
+}
+
+.syptom #three {
+  background-position: -238px -160px;
+}
+
+.syptom #three:hover {
+  background-position: -238px -348px;
+  background-color: #fd435d;
+  border: 1px dashed #fd435d;
+}
+
+.syptom #one_1 {
+  background-position: -4px -254px;
+}
+
+.syptom #one_1:hover {
+  background-position: -4px -446px;
+  background-color: #fd435d;
+  border: 1px dashed #fd435d;
+}
+
+.syptom #two_2 {
+  background-position: -122px -254px;
+}
+
+.syptom #two_2:hover {
+  background-position: -122px -444px;
+  background-color: #fd435d;
+  border: 1px dashed #fd435d;
+}
+
+.syptom #three_3 {
+  background-position: -237px -254px;
+}
+
+.syptom #three_3:hover {
+  background-position: -237px -446px;
+  background-color: #fd435d;
+  border: 1px dashed #fd435d;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {

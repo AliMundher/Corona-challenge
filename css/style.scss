@@ -140,11 +140,62 @@ header {
   &__subtitle {
     font-size: 0.9em;
   }
-  &__image {
-    margin: auto;
-    max-width: 50%;
-    img {
-      width: 100%;
+  &__icon {
+    width: 105px;
+    height: 105px;
+    display: inline-block;
+    background-image: url('../images/sprite-home-v3.png');
+    border: 1px dashed black;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  #one {
+    background-position: 4px -164px;
+    &:hover {
+      background-position: 4px -352px;
+      background-color: #fd435d;
+      border: 1px dashed #fd435d;
+    }
+  }
+  #two {
+    background-position: -114px -160px;
+    &:hover {
+      background-position: -114px -350px;
+      background-color: #fd435d;
+      border: 1px dashed #fd435d;
+    }
+  }
+  #three {
+    background-position: -238px -160px;
+    &:hover {
+      background-position: -238px -348px;
+      background-color: #fd435d;
+      border: 1px dashed #fd435d;
+    }
+  }
+  #one_1 {
+    background-position: -4px -254px;
+    &:hover {
+      background-position: -4px -446px;
+      background-color: #fd435d;
+      border: 1px dashed #fd435d;
+    }
+  }
+  #two_2 {
+    background-position: -122px -254px;
+    &:hover {
+      background-position: -122px -444px;
+      background-color: #fd435d;
+      border: 1px dashed #fd435d;
+    }
+  }
+  #three_3 {
+    background-position: -237px -254px;
+    &:hover {
+      background-position: -237px -446px;
+      background-color: #fd435d;
+      border: 1px dashed #fd435d;
     }
   }
 }
